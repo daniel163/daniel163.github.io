@@ -7,8 +7,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 一、Commons BeanUtils
 
-http://static.codeceo.com/images/2014/08/apache-interview.jpg
-
 http://jakarta.apache.org/commons/beanutils/index.html
 
 说明：针对Bean的一个工具集。由于Bean往往是有一堆get和set组成，所以BeanUtils也是在此基础上进行一些包装。
