@@ -16,3 +16,11 @@ title: 学习资源收集(持续更新)
 
 
 <p><a href="http://www.codeceo.com/article/java-single-problem.html" target="_blank">JAVA实现单利的难点</a></p>
+
+
+<p><a href="http://www.codeceo.com/article/java8-simple-guide.html" target="_blank">Java 8 简明教程</a></p>
+
+
+<p><a href="http://www.codeceo.com/article/java-mult-array.html" target="_blank">Java多维数组遍历详解</a></p>
+
+
