@@ -57,7 +57,7 @@ markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
 excerpt_separator: "\n"
-paginate: 10
+paginate: 20
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
