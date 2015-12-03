@@ -1,6 +1,6 @@
 ---
 layout: post
-title : <h5>Nexus手动更新索引</h5>
+title : Nexus手动更新索引
 ---
 
 访问[http://repo.maven.apache.org/maven2/.index/](http://repo.maven.apache.org/maven2/.index/)下载索引文件。

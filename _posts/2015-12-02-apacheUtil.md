@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <h5>Apache Commons 工具集使用简介(转载收藏)</h5>
+title: Apache Commons 工具集使用简介(转载收藏)
 ---
 
 Apache Commons包含了很多开源的工具，用于解决平时编程经常会遇到的问题，减少重复劳动。我选了一些比较常用的项目做简单介绍。文中用了很多网上现成的东西，我只是做了一个汇总整理。
