@@ -9,4 +9,4 @@ title: 学习资源收集(持续更新)
 
 [JAVA实现单利的难点](http://www.codeceo.com/article/java-single-problem.html)
 
-![test icon](http://f.hiphotos.baidu.com/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=8c5896e5354e251ff6faecaac6efa272/8694a4c27d1ed21bc3981a3aa86eddc450da3f9f.jpg)
+![java jpg](http://www.habdqn.com/d/file/remenjishu/javajishu/2015-04-07/0d847579ace1cfc62a3af3e0974f982b.jpg)
