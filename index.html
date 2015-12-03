@@ -4,13 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <table border="2">
-  <tr>
-    <td>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-    </td>
-  </tr>
-  </table>
+  <h6><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h6>
 <!--     <article class="post">
 
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -53,7 +47,7 @@ layout: default
 	<a href="http://study.163.com/" target="_blank">网易云课堂</a>,
 	<a href="http://www.jikexueyuan.com/" target="_blank">极客学院</a>
 	<br />
-  
+
 </tr>
 
 <tr>
