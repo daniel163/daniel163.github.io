@@ -4,12 +4,9 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <tr>
-  	<td>
-  		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-  	</td>
-  </tr>
-  
+  <table border="1">
+  <tr><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4></tr>
+  </table>
 <!--     <article class="post">
 
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
