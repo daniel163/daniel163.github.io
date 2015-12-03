@@ -15,7 +15,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 传统方法如下：
 
-```java
 	//得到TeacherForm
 
 	TeacherForm teacherForm=(TeacherForm)form;
@@ -57,7 +56,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 使用示例：
 
-```java
 	// create Options object
 	Options options = new Options();
 	// add t option, option is the command parameter, false indicates that
@@ -102,7 +100,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 使用示例：举一个简单的例子
 
-```java
 	OrderedMap map = new LinkedMap();
 	map.put("FIVE", "5");
 	map.put("SIX", "6");
@@ -137,7 +134,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 	window.height = 300
 
  
-```java
 	PropertiesConfiguration config = new PropertiesConfiguration("usergui.properties");
 	config.setProperty("colors.background", "#000000);
 	config.save();
@@ -159,7 +155,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 说明：我以前在写数据库程序的时候，往往把数据库操作单独做一个包。DbUtils就是这样一个工具，以后开发不用再重复这样的工作了。值得一体的是，这个工具并不是现在流行的OR-Mapping工具（比如Hibernate），只是简化数据库操作，比如
 
-```java
 	QueryRunner run = new QueryRunner(dataSource);
 
 	// Execute the query and get the results back from the handler
@@ -174,7 +169,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 使用示例：
 
-```java
 	// Create a factory for disk-based file items
 	FileItemFactory factory = new DiskFileItemFactory();
 	// Create a new file upload handler
@@ -204,7 +198,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 使用示例：最简单的Get操作
 
-```java
 	GetMethod get = new GetMethod("http://jakarta.apache.org");
 
 	// execute method and handle any error responses.
@@ -227,7 +220,6 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 1．读取Stream
 
 标准代码：
-```java
 	InputStream in = new URL( "http://jakarta.apache.org" ).openStream();
 	try {
 	       InputStreamReader inR = new InputStreamReader( in );
@@ -250,13 +242,13 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 
 
 2．读取文件
-```java
+
 	File file = new File("/commons/io/project.properties");
 	List lines = FileUtils.readLines(file, "UTF-8");
 
 
 3．察看剩余空间
-```java
+
 	long freeSpace = FileSystemUtils.freeSpace("C:/");
 
 
@@ -267,7 +259,7 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 说明：Xpath你知道吧，那么JXpath就是基于Java对象的Xpath，也就是用Xpath对Java对象进行查询。这个东西还是很有想像力的。
 
 使用示例：
-```java
+
 	Address address = (Address)JXPathContext.newContext(vendor).
 	getValue("locations[address/zipCode='90210']/address");
 	上述代码等同于
@@ -329,7 +321,7 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 	13. NTP/SNTP
 
 使用示例：
-```java
+
 	TelnetClient telnet = new TelnetClient();
 	telnet.connect( "192.168.1.99", 23 );
 	InputStream in = telnet.getInputStream();
@@ -345,7 +337,7 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 说明：用来帮助进行验证的工具。比如验证Email字符串，日期字符串等是否合法。
 
 使用示例：
-```java
+
 	// Get the Date validator
 	DateValidator validator = DateValidator.getInstance();
 	// Validate/Convert the date
@@ -379,7 +371,7 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 使用示例：
 
 从jar中读取文件
-```java
+
 	// Locate the Jar file
 	FileSystemManager fsManager = VFS.getManager();
 	FileObject jarFile = fsManager.resolveFile( "jar:lib/aJarFile.jar" );
@@ -392,7 +384,7 @@ Apache Commons包含了很多开源的工具，用于解决平时编程经常会
 	}
 	
 从smb读取文件
-```java
+
 	StaticUserAuthenticator auth = new StaticUserAuthenticator("username", "password", null);
 	FileSystemOptions opts = new FileSystemOptions();
 	DefaultFileSystemConfigBuilder.getInstance().setUserAuthenticator(opts, auth);
