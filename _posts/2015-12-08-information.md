@@ -26,5 +26,8 @@ title: 学习资源收集(持续更新)
 <p><a href="http://it-like.iteye.com/blog/1491467" target="_blank">java.io.File中的pathSeparator与separator的区别</a></p>
 
 
+<p><a href="http://www.appinn.com/markdown/" target="_blank">Markdown语法</a></p>
+
+
 
 
