@@ -29,5 +29,8 @@ title: 学习资源收集(持续更新)
 <p><a href="http://www.appinn.com/markdown/" target="_blank">Markdown语法</a></p>
 
 
+<p><a href="http://www.tuicool.com/articles/NfYRr2N" target="_blank">使用Gitblog和Markdown搭建自己的博客网站</a></p>
+
+
 
 
