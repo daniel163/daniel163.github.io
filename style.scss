@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $blue;
+  color: $gray;
 }
 
 p {
@@ -122,11 +122,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: $yellow;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: $yellow;
   background: $lightGray;
 }
 
