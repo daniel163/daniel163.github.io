@@ -5,16 +5,6 @@ layout: default
 <div class="posts" style="color:#B03060">
   {% for post in paginator.posts %}
   <h5><a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a></h5>
-<!--     <article class="post">
-
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-		
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <h5><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">查看正文</a></h5>
-    </article> -->
 
   {% endfor %}
 </div>
@@ -36,7 +26,7 @@ layout: default
 
 <div style="color:#A52A2A">
 <table border="2">
-  
+
 	<p>快捷通道:</p>
 	<p>
 	<a href="http://www.baidu.com/" target="_blank">百度</a>&nbsp&nbsp
