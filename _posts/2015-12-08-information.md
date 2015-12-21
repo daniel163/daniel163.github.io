@@ -34,6 +34,8 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=410169219&idx=1&sn=d437db624c0e980f5bb4ae4546880ba7&scene=2&srcid=1214pGqXY5kXyDqMuQ1dx9um&from=timeline&isappinstalled=0#wechat_redirect" target="_blank">Git教程</a></p>
 
+<p><a href="http://www.codeceo.com/article/java-programmer-linux-command.html" target="_blank">Java 程序员必须掌握的 Linux 命令</a></p>
+
 
 
 
