@@ -41,6 +41,11 @@ title: 学习资源收集(持续更新)
 <p><a href="http://shiyanjun.cn/archives/325.html" target="_blank">Dubbo架构设计详解</a></p>
 
 
+<p><a href="http://www.codeceo.com/article/best-sublime-text-plugins.html" target="_blank">40+ Sublime Text 最佳插件汇总</a></p>
+
+
+
+
 
 
 
