@@ -73,9 +73,10 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $red;
+    color: $blue;
   }
 }
+  a:hover{color: green;}
 
 ul, ol {
   margin: 15px 0;
