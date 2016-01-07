@@ -44,6 +44,9 @@ title: 学习资源收集(持续更新)
 <p><a href="http://www.codeceo.com/article/best-sublime-text-plugins.html" target="_blank">40+ Sublime Text 最佳插件汇总</a></p>
 
 
+<p><a href="http://www.codeceo.com/article/sublime-text-guide.html" target="_blank">最全面的 Sublime Text 使用指南</a></p>
+
+
 <p><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html" target="_blank">RESTful API 设计指南</a></p>
 
 
