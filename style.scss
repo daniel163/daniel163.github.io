@@ -78,16 +78,16 @@ p {
 } */
 
 a {
-      text-align:center;
-            text-decoration: none;
-            font-weight:bold;
-      border:1px solid #a1a1a1;
-      padding:10px 15px;
-            margin:5px 10px;
-      background:#dddddd;     
-      border-radius:25px;
-            color: gray;
-            float: left;
+  text-align:center;
+  text-decoration: none;
+  font-weight:bold;
+  border:1px solid #a1a1a1;
+  padding:10px 15px;
+  margin:5px 10px;
+  background:#dddddd;     
+  border-radius:25px;
+  color: gray;
+  /* float: left; */
     }
 
 a:hover{
