@@ -72,6 +72,7 @@ a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
+  border-radius:25px;
   &:hover,&:active {
     color: $blue;
   }
