@@ -68,16 +68,16 @@ p {
   margin: 15px 0;
 }
 
-/* a {
+a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
   &:hover,&:active {
     color: $blue;
   }
-} */
+}
 
-a {
+/* a {
   text-align:center;
   text-decoration: none;
   font-weight:bold;
@@ -87,8 +87,8 @@ a {
   background:#dddddd;     
   border-radius:25px;
   color: gray;
-  /* float: left; */
-    }
+  float: left;
+    } */
 
 a:hover{
   color: green;
