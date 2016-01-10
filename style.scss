@@ -68,14 +68,28 @@ p {
   margin: 15px 0;
 }
 
-a {
+/* a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover,&:active {
     color: $blue;
   }
-}
+} */
+
+a {
+      text-align:center;
+            text-decoration: none;
+            font-weight:bold;
+      border:1px solid #a1a1a1;
+      padding:10px 15px;
+            margin:5px 10px;
+      background:#dddddd;     
+      border-radius:25px;
+            color: gray;
+            float: left;
+    }
+
 a:hover{
   color: green;
   box-shadow: 5px 5px 5px #FF3030;    
