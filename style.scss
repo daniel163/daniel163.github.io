@@ -76,7 +76,10 @@ a {
     color: $blue;
   }
 }
-a:hover{color: green;}
+a:hover{
+  color: green;
+  box-shadow: 5px 5px 5px #FF3030;    
+}
 
 ul, ol {
   margin: 15px 0;
