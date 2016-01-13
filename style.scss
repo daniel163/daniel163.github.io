@@ -91,11 +91,16 @@ a {
     } */
 
 a:hover{
-  color: green;
+  /* color: green;
   box-shadow: 0px 0px 0px 0px green,
       inset 0px 0px 10px 1px green;
   padding: 8px;
-  border-radius:15px;
+  border-radius:15px; */
+
+  background:-moz-linear-gradient(left,#ace,#f96);
+  background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));
+  background:-webkit-linear-gradient(left,#ace,#f96);
+  background:-o-linear-gradient(left,#ace,#f96);
 }
 
 ul, ol {
