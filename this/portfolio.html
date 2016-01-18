@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gelios Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+<script src="js/jquery.easydropdown.js"></script>
+<link rel="stylesheet" href="css/etalage.css">
+<script src="js/jquery.etalage.min.js"></script>
+<script>
+			jQuery(document).ready(function($){
+
+				$('#etalage').etalage({
+					thumb_image_width: 300,
+					thumb_image_height: 400,
+					source_image_width: 900,
+					source_image_height: 1200,
+					show_hint: true,
+					click_callback: function(image_anchor, instance_id){
+						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					}
+				});
+
+			});
+		</script>
+</head>
+<body>
+ <!----start-header---->
+		<div class="header">
+			<div class="container">
+			  <div class="dropdown_box">
+				   <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
+            			<option value="0">English</option>	
+						<option value="1">French</option>
+						<option value="2">German</option>
+				   </select>
+		       </div>
+		       <div class="clearfix"> </div>
+		      <div class="header_top">
+				<div class="logo">
+				  <a href="index.html"><img src="images/logo.png" alt=""/></a>
+				</div>
+		  		<div class="menu">
+					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt=""/> </a>
+					<ul class="nav" id="nav">
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="services.html">Services</a></li>
+					  <li><a href="blog.html">Blog</a></li>
+					  <li class="current"><a href="portfolio.html">Portfolio</a></li>
+					  <li><a href="404.html">Shortcodes</a></li>
+					  <li><a href="contact.html">Contacts</a></li>								
+					</ul>
+					<script type="text/javascript" src="js/responsive-nav.js"></script>
+				</div>							
+	  			<div class="clearfix"> </div>
+			    <!----//End-top-nav---->
+			 </div>
+		   </div>
+	  </div>
+		<!----//End-header---->
+	  <div class="services">
+	       <div class="container">
+	       	 <div class="portfolio_grid1">
+	    	   <div class="col-md-6">
+		            <ul id="etalage">
+							<li>
+								<a href="optionallink.html">
+									<img class="etalage_thumb_image" src="images/port2.jpg" class="img-responsive" />
+									<img class="etalage_source_image" src="images/port2.jpg" class="img-responsive" title="" />
+								</a>
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/port5.jpg" class="img-responsive" />
+								<img class="etalage_source_image" src="images/port5.jpg" class="img-responsive" title="" />
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/port8.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="images/port8.jpg" class="img-responsive"  />
+							</li>
+						    <li>
+								<img class="etalage_thumb_image" src="images/port6.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="images/port6.jpg" class="img-responsive"  />
+							</li>
+							
+						</ul>
+				</div>
+				<div class="col-md-6 portfolio_right">
+					<h1><a href="#">The standard chunk of Lorem Ipsum used since the 1500s is reproduced.</a></h1>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable..</p>
+		            <h2>Project Details</h2>		
+					<ul class="project_detail">
+					   <li><span class="project_bold">Client : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alteration </li>
+					   <li><span class="project_bold">Date : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28 Feb 2015 </li>
+					   <li><span class="project_bold">Tags : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Design , Clean </li>
+					</ul>
+					<div class="project_social">
+						<p class="project_bold1">Share : </p>
+						<ul class="share">
+						   <li><a href=""> <i class="p_fb"> </i> </a></li>
+						   <li><a href=""> <i class="p_tw"> </i> </a></li>
+						   <li><a href=""> <i class="p_linked"> </i> </a>
+					     </ul> 
+					     <div class="clearfix"> </div></li>		
+					</div>
+					<div class="btn4">
+			           <a href="#" title="Online Reservation" class="btn btn-primary btn-normal btn-inline " target="_self">More Details</a>
+					</div>
+			   </div>
+			   <div class="clearfix"> </div>
+			  </div>
+			  <div class="work_grid">
+			  	<h2>Recent Works</h2>
+			        <ul id="flexiselDemo3">
+						<li><img src="images/pic1.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+						<li><img src="images/pic2.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+						<li><img src="images/pic3.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+					</ul>
+				    <script type="text/javascript">
+					 $(window).load(function() {
+						$("#flexiselDemo3").flexisel({
+							visibleItems: 3,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+					    	responsiveBreakpoints: { 
+					    		portrait: { 
+					    			changePoint:480,
+					    			visibleItems: 1
+					    		}, 
+					    		landscape: { 
+					    			changePoint:640,
+					    			visibleItems: 2
+					    		},
+					    		tablet: { 
+					    			changePoint:768,
+					    			visibleItems: 3
+					    		}
+					    	}
+					    });
+					    
+					});
+				   </script>
+				   <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				   <div class="flexi">
+				   <ul id="flexiselDemo1">
+						<li><img src="images/pic1.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+						<li><img src="images/pic2.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+						<li><img src="images/pic3.jpg" class="img-responsive" alt=""/><div class="grid-flex"><a href="#"> It has survived not only five centuries</a><p>Feb 28, 2015</p></div></li>
+					</ul>
+				    <script type="text/javascript">
+					 $(window).load(function() {
+						$("#flexiselDemo1").flexisel({
+							visibleItems: 3,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+					    	responsiveBreakpoints: { 
+					    		portrait: { 
+					    			changePoint:480,
+					    			visibleItems: 1
+					    		}, 
+					    		landscape: { 
+					    			changePoint:640,
+					    			visibleItems: 2
+					    		},
+					    		tablet: { 
+					    			changePoint:768,
+					    			visibleItems: 3
+					    		}
+					    	}
+					    });
+					    
+					});
+				   </script>
+			</div>
+			</div>
+         </div>
+   </div>
+   <div class="footer">
+   	<div class="container">
+   		<div class="col-md-3 footer_grid">
+   			<img src="images/f_logo.png" alt=""/>
+   			<p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing..</p>
+   	        <ul class="footer_links">
+   	        	<li><a href="#">Read More</a></li>
+   	        	<li><a href="#">About Us</a></li>
+   	        </ul>
+   	        <ul class="footer_social">
+				<li><a href=""> <i class="fb"> </i> </a></li>
+				<li><a href=""><i class="tw"> </i> </a></li>
+				<li><a href=""><i class="db"> </i> </a></li>
+				<li><a href=""><i class="google"> </i> </a></li>
+	    	</ul>
+	    	<div class="copy">
+				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.mianfeimoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+   	    </div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>From the Blog</h3>
+   		  <ul class="list1 list2">
+   		  	<li class="list1_img"><img src="images/f1.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Morbi in dui quis est.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   		  <ul class="list1 list2">
+   		  	<li class="list1_img"><img src="images/f2.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Curabitur sit amet mauris.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   		  <ul class="list1">
+   		  	<li class="list1_img"><img src="images/f3.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Curabitur sit amet mauris.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   	    </div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>Tags</h3>
+   		  <ul class="tags_links">
+			<li><a href="#">Web Design</a></li>
+			<li><a href="#">Artist Design</a></li>
+			<li><a href="#">Modern</a></li>
+			<li><a href="#">Responsive</a></li>
+			<li><a href="#">Awesome</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">Photography</a></li>
+			<li><a href="#">Artist Design</a></li>
+			<li><a href="#">Modern</a></li>
+			<li><a href="#">Responsive</a></li>
+		  </ul>
+   		</div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>Flicker Widget</h3>
+   		  <ul class="widget_links">
+			<li><img src="images/f4.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f5.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f6.jpg" class="img-responsive" alt=""/></li>
+		  </ul>
+		  <ul class="widget_links">
+			<li><img src="images/f7.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f8.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f9.jpg" class="img-responsive" alt=""/></li>
+		  </ul>
+   		</div>
+   	</div>
+   </div>
+</body>
+</html>		

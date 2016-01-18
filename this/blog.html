@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gelios Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+<script src="js/jquery.easydropdown.js"></script>
+</head>
+<body>
+ <!----start-header---->
+		<div class="header">
+			<div class="container">
+			  <div class="dropdown_box">
+				   <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
+            			<option value="0">English</option>	
+						<option value="1">French</option>
+						<option value="2">German</option>
+				   </select>
+		       </div>
+		       <div class="clearfix"></div>
+		      <div class="header_top">
+				<div class="logo">
+				  <a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+		  		<div class="menu">
+					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
+					<ul class="nav" id="nav">
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="services.html">Services</a></li>
+					  <li class="current"><a href="blog.html">Blog</a></li>
+					  <li><a href="portfolio.html">Portfolio</a></li>
+					  <li><a href="404.html">Shortcodes</a></li>
+					  <li><a href="contact.html">Contacts</a></li>								
+					</ul>
+					<script type="text/javascript" src="js/responsive-nav.js"></script>
+				</div>							
+	  			<div class="clearfix"> </div>
+			    <!----//End-top-nav---->
+			 </div>
+		   </div>
+		</div>
+		<!----//End-header---->
+	  <div class="services">
+	   <div class="container">
+			<div class="col-md-9">
+			  <div class="blog_left">
+				<a href="single.html" class="mask"><img src="images/blog.jpg" alt="image" class="img-responsive zoom-img"></a>
+				<h2><a href="single.html"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </a></h2>
+			    <h3>Posted 02.05.2015 at 18:00h in Web Design By <a href="single.html">Majority have</a> / 60 Likes / 2 Comments.</h3>
+			    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+		       </div>
+		       <div class="blog_left">
+				 <iframe width="100%" height="425" src="https://www.youtube.com/embed/-2m6JkJvv4w" frameborder="0" allowfullscreen></iframe>
+				 <h2><a href="single.html"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </a></h2>
+			    <h3>Posted 02.05.2015 at 18:00h in Web Design By <a href="single.html">Majority have </a> / 60 Likes / 2 Comments.</h3>
+			    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+		      </div>
+		      <ul class="dc_pagination dc_paginationA dc_paginationA06">
+					  <li class="prev"> </li>
+					  <li><a href="#">1</a></li>
+					  <li><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+					  <li><a href="#">...</a></li>
+					  <li><a href="#">19</a></li>
+					  <li class="next"> </li>
+					  <div class="clearfix"> </div>
+		       </ul>
+		    </div>  
+			<div class="col-md-3 sidebar">
+				<div class="search">
+				   <form>
+					 <input type="text" value="Search..." onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+					 <input type="submit" value="">
+				   </form>
+				 </div>
+				 <img src="images/2.jpg" class="img-responsive" alt=""/>
+				 <ul class="blog-list">
+					  <h3>Categories</h3>
+					  <li><a href="#">Web Design</a></li>
+					  <li><a href="#">Web Development</a></li>
+					  <li><a href="#">Marketing</a></li>
+					  <li><a href="#">Wordpress</a></li>
+					  <li><a href="#">Resources</a></li>
+					  <li><a href="#">Illustrations</a></li>
+					  <li><a href="#">Tips</a></li>
+				 </ul>
+				 <ul class="blog-list1">
+					  <h3>Tags</h3>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Html5</a></li>
+						<li><a href="#">Wordpress</a></li>
+						<li><a href="#">Logo</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Wordpress</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Html5</a></li>
+						<li><a href="#">Wordpress</a></li>
+						<li><a href="#">Logo</a></li>
+				 </ul>
+				 <div class="blog_list2">
+				 <h3>Recent Posts</h3>
+					 <ul class="blog-list3">
+					 	<li class="blog-list3-img"><img src="images/blog_s1.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">Hampden-Sydney College in Virginia, looked up one</a></h4>
+					 	  <p>02.02.2015 at 18:00h</p>
+					 	</li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+					 <ul class="blog-list3">
+					 	<li class="blog-list3-img"><img src="images/blog_s2.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">Hampden-Sydney College in Virginia, looked up one</a></h4>
+					 	  <p>02.02.2015 at 18:00h</p>
+					 	</li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+					 <ul class="blog-list3">
+					 	<li class="blog-list3-img"><img src="images/blog_s3.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">Hampden-Sydney College in Virginia, looked up one</a></h4>
+					 	  <p>02.02.2015 at 18:00h</p>
+					 	</li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+			    </div>  
+	     </div>
+	   <div class="clearfix"> </div>
+     </div>
+    </div>
+     <div class="footer">
+   	<div class="container">
+   		<div class="col-md-3 footer_grid">
+   			<img src="images/f_logo.png" alt=""/>
+   			<p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing..</p>
+   	        <ul class="footer_links">
+   	        	<li><a href="#">Read More</a></li>
+   	        	<li><a href="#">About Us</a></li>
+   	        </ul>
+   	        <ul class="footer_social">
+				<li><a href=""> <i class="fb"> </i> </a></li>
+				<li><a href=""><i class="tw"> </i> </a></li>
+				<li><a href=""><i class="db"> </i> </a></li>
+				<li><a href=""><i class="google"> </i> </a></li>
+	    	</ul>
+	    	<div class="copy">
+				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.mianfeimoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+   	    </div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>From the Blog</h3>
+   		  <ul class="list1 list2">
+   		  	<li class="list1_img"><img src="images/f1.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Morbi in dui quis est.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   		  <ul class="list1 list2">
+   		  	<li class="list1_img"><img src="images/f2.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Curabitur sit amet mauris.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   		  <ul class="list1">
+   		  	<li class="list1_img"><img src="images/f3.jpg" class="img-responsive" alt=""/></li>
+   		  	<li class="list1_desc">
+   		  		<p class="m_3">Curabitur sit amet mauris.</p>
+   		  		<p class="m_2">December 25, 2014</p>
+   		  	</li>
+   		  	<div class="clearfix"> </div>
+   		  </ul>
+   	    </div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>Tags</h3>
+   		  <ul class="tags_links">
+			<li><a href="#">Web Design</a></li>
+			<li><a href="#">Artist Design</a></li>
+			<li><a href="#">Modern</a></li>
+			<li><a href="#">Responsive</a></li>
+			<li><a href="#">Awesome</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">Photography</a></li>
+			<li><a href="#">Artist Design</a></li>
+			<li><a href="#">Modern</a></li>
+			<li><a href="#">Responsive</a></li>
+		  </ul>
+   		</div>
+   	    <div class="col-md-3 footer_grid1">
+   		  <h3>Flicker Widget</h3>
+   		  <ul class="widget_links">
+			<li><img src="images/f4.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f5.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f6.jpg" class="img-responsive" alt=""/></li>
+		  </ul>
+		  <ul class="widget_links">
+			<li><img src="images/f7.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f8.jpg" class="img-responsive" alt=""/></li>
+			<li><img src="images/f9.jpg" class="img-responsive" alt=""/></li>
+		  </ul>
+   		</div>
+   	</div>
+   </div>
+</body>
+</html>		
