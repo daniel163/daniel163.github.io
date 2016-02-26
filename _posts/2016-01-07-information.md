@@ -49,6 +49,8 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html" target="_blank">RESTful API 设计指南</a></p>
 
+<p><a href="http://jingyan.baidu.com/article/7908e85c77055eaf481ad223.html" target="_blank">两台Linux系统之间传输文件</a></p>
+
 
 
 
