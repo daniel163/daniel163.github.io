@@ -51,6 +51,8 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://jingyan.baidu.com/article/7908e85c77055eaf481ad223.html" target="_blank">两台Linux系统之间传输文件</a></p>
 
+<p><a href="http://www.tuicool.com/articles/fy6VJf" target="_blank">Linux服务器之间传输文件的几种方式</a></p>
+
 
 
 
