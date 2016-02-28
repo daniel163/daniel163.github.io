@@ -53,6 +53,10 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://www.tuicool.com/articles/fy6VJf" target="_blank">Linux服务器之间传输文件的几种方式</a></p>
 
+<p><a href="http://www.codeceo.com/article/android-5-layout-usage.html" target="_blank">Android 五大布局讲解与应用</a></p>
+
+<p><a href="http://www.codeceo.com/article/50-os-software-it-company-like.html" target="_blank">最受IT公司欢迎的50款开源软件</a></p>
+
 
 
 
