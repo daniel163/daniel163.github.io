@@ -57,6 +57,10 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://www.codeceo.com/article/50-os-software-it-company-like.html" target="_blank">最受IT公司欢迎的50款开源软件</a></p>
 
+<p><a href="http://www.centoscn.com/CentOS/config/2013/1017/1878.html" target="_blank">CentOS服务器时间同步的2种方法</a></p>
+
+<p><a href="http://jingyan.baidu.com/article/636f38bb268a82d6b84610bd.html" target="_blank">如何设置Centos6.4系统的时区</a></p>
+
 
 
 
