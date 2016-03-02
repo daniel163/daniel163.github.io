@@ -61,6 +61,8 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://jingyan.baidu.com/article/636f38bb268a82d6b84610bd.html" target="_blank">如何设置Centos6.4系统的时区</a></p>
 
+<p><a href="http://www.admin10000.com/document/6436.html" target="_blank">SpringMVC详细示例实战教程</a></p>
+
 
 
 
