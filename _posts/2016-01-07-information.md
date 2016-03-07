@@ -63,6 +63,8 @@ title: 学习资源收集(持续更新)
 
 <p><a href="http://www.admin10000.com/document/6436.html" target="_blank">SpringMVC详细示例实战教程</a></p>
 
+<p><a href="http://kb.cnblogs.com/page/162080/" target="_blank">SSL协议详解</a></p>
+
 
 
 
