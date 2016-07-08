@@ -16,6 +16,16 @@ Git常用操作命令收集：
 拉取远程仓库：$ git pull [remoteName] [localBranchName]
 关联远程仓库： git remote add origin git@github.com:Y-lenny/git-partial-revert.git
 推送远程仓库：$ git push [remoteName] [localBranchName]
+
+新增 -- 本地clone后关联到远程仓库
+git branch -a，列出所有分支名称如下：
+remotes/origin/dev
+remotes/origin/release
+git checkout -b dev origin/dev，作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
+git checkout -b release origin/release，作用参见上一步解释
+git checkout dev，切换回dev分支，并开始开发。
+
+直接把分支导入开发环境中
 ```
 
  
